@@ -1,0 +1,17 @@
+{Home}
+const dateapi = "http://localhost/upload-beta/v1/dashboard/dateApprover/4";
+const tpnmapi  = "http://localhost/founding-beta/v1/dashboard/totalTpnmSuccess/4";
+const tvecapi = "http://localhost/upload-beta/v1/dashboard/totalVehicle/4";
+const taltpnmapi = "http://localhost/founding-beta/v1/dashboard/totalTpnmPerDay/1";
+
+{Upload Data}
+const dpapi = "http://localhost/user-beta/v1/Droppoint/dpTerdaftar"
+const tambahapi = "http://localhost/upload-beta/v1/UploadFile/tambahkanData"
+const gantiapi = "http://localhost/upload-beta/v1/UploadFile/gantikanData"
+const hapusapi = "http://localhost/upload-beta/v1/UploadFile/hapusData"
+
+{Data Terupload}
+const listapi = "http://localhost/upload-beta/v1/Hasil_data_terupload/listTerupload"
+
+{Data Kendaraan}
+const kendaraanapi = "http://localhost/upload-beta/v1/Data_kendaraan_aktif_leasing/index"

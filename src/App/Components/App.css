@@ -1,0 +1,31 @@
+.page {
+  min-height: 100vh;
+}
+
+/* simple - enter transition 300ms, exit 150ms */
+.fade-appear,
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 350ms linear 150ms;
+  -webkit-transition: opacity 350ms linear 150ms;
+  -moz-transition: opacity 350ms linear 150ms;
+  -ms-transition: opacity 350ms linear 150ms;
+  -o-transition: opacity 350ms linear 150ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  -webkit-transition: opacity 150ms linear;
+  transition: opacity 150ms linear;
+}
+/*# sourceMappingURL=App.css.map */
